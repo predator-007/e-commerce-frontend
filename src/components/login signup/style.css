@@ -1,4 +1,11 @@
-
+body{
+  
+  background-image: url('../../login-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
 .logincard{
     background-color: rgb(191, 206, 221);
     height: 700px;
@@ -13,6 +20,7 @@
     align-content: center;
     opacity: .89;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
   }
     h1{
       font-family: 'Prompt', sans-serif;
@@ -33,3 +41,28 @@
       margin-top: 20px;
       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     }
+    #status{
+      color:red;
+    }
+    @media only screen and (max-width:768px)
+{
+   .logincard
+   {
+     width:80%;
+     height:auto;
+     padding-bottom:100px;
+     padding-top:100px;
+     margin-top:200px;
+   }
+}
+@media only screen and (max-width:600px)
+{
+   .logincard
+   {
+     width:80%;
+     height:auto;
+     padding-bottom:20px;
+     padding-top:20px;
+     margin-top:100px;
+   }
+}
